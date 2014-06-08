@@ -155,7 +155,7 @@ void Score_sheet::count()
 	if (saved_points_tab[current_player - 1][11] == -1)
 	{
 
-		if (dice_tab[0] == dice_tab[1] == dice_tab[2] == dice_tab[3] == dice_tab[4]) //general
+		if (dice_tab[0] == dice_tab[1] && dice_tab[0] == dice_tab[2] && dice_tab[0] == dice_tab[3] && dice_tab[0] == dice_tab[4]) //general
 			points[11] = 50;
 
 	}

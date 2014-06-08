@@ -90,6 +90,7 @@ void Game::the_game()
 	}
 
 	score_sheet++;
+	cout << endl;
 	show_score_sheet();
 	score_sheet.who_win();
 }
